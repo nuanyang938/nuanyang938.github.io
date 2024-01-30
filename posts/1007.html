@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
     
+    <style>
+        body
+        {
+            font-family: "Times New Roman", Helvetica, Tahoma, Arial,   LXGW WenKai   "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif !important;
+
+        }
+    </style>
+
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
@@ -37,6 +45,19 @@
 
 
         
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
         
     
     
@@ -44,7 +65,20 @@
 <meta name="generator" content="Hexo 6.3.0"></head>
     
     
+    <style>
+        body{
+            background-image: url(/img/favicon.webp);
+        }
+        .paper {
+            background-image: url(/img/favicon.webp);
+        }  
+    </style>
+
     <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
         
         <div class="paper">
             
@@ -109,10 +143,6 @@
     
 
     <div class="post-md">
-        
-            
-                <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%A7%8B%E4%BA%8E%E8%A7%84%E8%8C%83%EF%BC%8C%E7%BB%88%E6%88%90%E8%87%AA%E7%84%B6%EF%BC%8C%E5%AD%A6%E4%B9%8B%E8%83%BD%E5%8F%96%EF%BC%8C%E4%B9%A0%E8%80%8C%E5%BF%85%E8%BE%BE%E3%80%82"><span class="post-toc-text">始于规范，终成自然，学之能取，习而必达。</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E7%AB%B9%E8%BE%B9%E5%8F%B0%E6%A6%AD%EF%BC%8C%E6%B7%A1%E8%91%97%E7%83%9F%E4%BA%91%E3%80%82"><span class="post-toc-text">竹边台榭，淡著烟云。</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%BF%83%E5%AD%98%E5%B8%8C%E5%86%80%EF%BC%8C%E7%9B%AE%E6%9C%89%E7%B9%81%E6%98%9F%EF%BC%8C%E8%BF%BD%E5%85%89%E8%80%8C%E9%81%87%EF%BC%8C%E6%9C%A8%E5%85%89%E8%80%8C%E8%A1%8C%E3%80%82"><span class="post-toc-text">心存希冀，目有繁星，追光而遇，木光而行。</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%A2%99%E8%A7%92%E6%95%B0%E6%9E%9D%E6%A2%85%EF%BC%8C%E5%87%8C%E5%AF%92%E7%8B%AC%E8%87%AA%E5%BC%80%E3%80%82%E9%81%A5%E7%9F%A5%E4%B8%8D%E6%98%AF%E9%9B%AA%EF%BC%8C%E4%B8%BA%E6%9C%89%E6%9A%97%E9%A6%99%E6%9D%A5%E3%80%82"><span class="post-toc-text">墙角数枝梅，凌寒独自开。遥知不是雪，为有暗香来。</span></a></li></ol>
-            
         
         <p><img src="https://i.imgur.com/27Uzhtj.jpg" alt="6"></p>
 <h4 id="始于规范，终成自然，学之能取，习而必达。"><a href="#始于规范，终成自然，学之能取，习而必达。" class="headerlink" title="始于规范，终成自然，学之能取，习而必达。"></a>始于规范，终成自然，学之能取，习而必达。</h4><p><img src="https://i.imgur.com/lpqmKG6.jpg" alt="5"></p>
@@ -215,6 +245,8 @@
     
             <span>🌊看过大海的人不会忘记海的广阔🌊</span>
             
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
     
 </div>
 
@@ -223,6 +255,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
     <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
     
     
     
@@ -236,6 +275,10 @@
 <script src="/js/randomHeaderContent.js"></script>
 
     <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
     
 
     
@@ -251,6 +294,13 @@
 
                 </div>
             
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
             
     </body>
 

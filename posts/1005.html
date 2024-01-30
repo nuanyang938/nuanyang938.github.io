@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
     
+    <style>
+        body
+        {
+            font-family: "Times New Roman", Helvetica, Tahoma, Arial,   LXGW WenKai   "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif !important;
+
+        }
+    </style>
+
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
@@ -37,6 +45,19 @@
 
 
         
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
         
     
     
@@ -44,7 +65,20 @@
 <meta name="generator" content="Hexo 6.3.0"></head>
     
     
+    <style>
+        body{
+            background-image: url(/img/favicon.webp);
+        }
+        .paper {
+            background-image: url(/img/favicon.webp);
+        }  
+    </style>
+
     <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
         
         <div class="paper">
             
@@ -109,10 +143,6 @@
     
 
     <div class="post-md">
-        
-            
-                
-            
         
         <p>每年的春节快到时，我都不知道将怎样度过这个春节。我记得往年过春节都很有意思。孩子们最喜欢的，当然是除夕的早晨去集市上挑选烟花、礼花。然后晚上可以尽情地放烟花，或者看别人家放的礼花，那场景自然热闹非凡。孩子们这时的心情啊，别提多开心啦！我也是在过年是才能找到那段童年里最快乐的时光。</p>
 <p><img src="https://chagf.cn-bj.ufileos.com/123.png" alt="123"></p>
@@ -215,6 +245,8 @@
     
             <span>🌊看过大海的人不会忘记海的广阔🌊</span>
             
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
     
 </div>
 
@@ -223,6 +255,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
     <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
     
     
     
@@ -236,6 +275,10 @@
 <script src="/js/randomHeaderContent.js"></script>
 
     <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
     
 
     
@@ -251,6 +294,13 @@
 
                 </div>
             
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
             
     </body>
 

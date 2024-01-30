@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
     
+    <style>
+        body
+        {
+            font-family: "Times New Roman", Helvetica, Tahoma, Arial,   LXGW WenKai   "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif !important;
+
+        }
+    </style>
+
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
@@ -37,6 +45,19 @@
 
 
         
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
         
     
     
@@ -44,7 +65,20 @@
 <meta name="generator" content="Hexo 6.3.0"></head>
     
     
+    <style>
+        body{
+            background-image: url(/img/favicon.webp);
+        }
+        .paper {
+            background-image: url(/img/favicon.webp);
+        }  
+    </style>
+
     <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
         
         <div class="paper">
             
@@ -109,10 +143,6 @@
     
 
     <div class="post-md">
-        
-            
-                
-            
         
         <p>这是一本较薄的小说，只有几十万字，数日便看完。看完的第一感觉便是：不过瘾！实在好短！但意味深长，回味无穷。</p>
 <p>　　祥子是旧北京三十年代的年轻车夫。他相貌一般，块头大，跑得快，不怕吃苦。他有理想的职业——拉车。他有追求的目标——买车。流了三年的汗水，终于换来了一辆自己的新车。那是抗战时期，北平乱成一团，祥子稀里糊涂地被兵抓去打杂。车子——他生命的一部分，被夺走了。有一天，炮声把营里的兵吓住了，他们决定迅速转移。祥子趁乱带上兵营里的几匹骆驼，溜了。他卖了骆驼，凑了三十几块大洋，又回到“仁和厂子”拉车。厂主刘四爷的闺女虎妞，都三十多了还没找到婆家，就是因为太泼辣了。虎妞看上了祥子，诱惑祥子，祥子栽在了她的怀里，祥子后悔，准备一刀两断。可虎妞骗祥子“有了”，祥子是丢不掉她了，最终与她成了亲。虎妞死于难产，祥子所爱的小福子也离开了人世，祥子人财两空。</p>
@@ -216,6 +246,8 @@
     
             <span>🌊看过大海的人不会忘记海的广阔🌊</span>
             
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
     
 </div>
 
@@ -224,6 +256,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
     <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
     
     
     
@@ -237,6 +276,10 @@
 <script src="/js/randomHeaderContent.js"></script>
 
     <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
     
 
     
@@ -252,6 +295,13 @@
 
                 </div>
             
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
             
     </body>
 
