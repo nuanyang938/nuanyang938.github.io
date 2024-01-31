@@ -12,7 +12,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
-    <meta name="description" content="" />
+    <meta name="description" content="图片测试" />
     <meta name="hexo-theme-A4" content="v1.8.2" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>Han·cico | 暖阳个人博客</title>
@@ -31,6 +31,10 @@
 <link rel="stylesheet" href="/css/fonts.css">
  
          <!--注意：首页既不是post也不是page-->
+        
+            
+<link rel="stylesheet" href="/css/waline.css">
+
         
         
         
@@ -72,69 +76,155 @@
             
             
             
-                <div class="shadow-drop-2-bottom index-main">
-                    <!-- 这个header就是特指index的头部 -->
-
-
-
-    <div style="text-align: center;"> 
-
-        <a class="index-logo" href="/">Han·cico</a>
-        <div style="margin-bottom: 12px;"> 
-            
-                
-                    首页
-                
-            
-                
-                    &nbsp / &nbsp<a href="/list/">文章</a>
-                
-            
-                
-                    &nbsp / &nbsp<a href="/about/">关于</a>
-                
-            
-                
-                    &nbsp / &nbsp<a href="/message/">留言</a>
-                
-            
-                
-                    &nbsp / &nbsp<a href="/tags/">标签</a>
-                
-            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">Han·cico</a> 
+            <span class="description">古人云：供人以鱼，只解一餐;授人以渔，终身受用。</span> 
         </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">文章</a></li>
+            
+        
+            
+                <li><a href="/about/">关于</a></li>
+            
+        
+            
+                <li><a href="/message/">留言</a></li>
+            
+        
+            
+                <li><a href="/tags/">标签</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            图片测试
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p><img src="/source/images/sheying.png" alt="sheying"></p>
+<p><img src="/assets/sheying.png" alt="sheying"></p>
+
     </div>
 
-                    <div class="post-main">
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-01-29</span>
+            
+            
+             
+        
+        </i>
+    </div>
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        true 
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'waline-a4-ce9ap90l4-nuanyang938.vercel.app',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '留下你的评论吧。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
     
     
-       
-       
-       
-            <div class="post-md">
-                <div class="circle-blue" <p>🖍 最近的工作：
-「 斜土街道康晖里 | 改造 」<p></p>
-<p><img src="https://chagf.cn-bj.ufileos.com/cico.jpg"></p>
+    
+    </div>
+
+
+     
 </div>
-<center>
-    <img src="https://chagf.cn-bj.ufileos.com/sheying.png" style="width:100px" ;>
-   
-</center>
-            </div>
-    
-</div> 
+
+
+
+                                      
+                    
+                    
                     <div class="footer">
+    
+        <span> 
+            © 1949-2024 China 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> 友链 </a>
+                
+
+            
+        </span>
     
 </div>
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
-         
+            <span>🌊看过大海的人不会忘记海的广阔🌊</span>
             
-                
-                <span class="index-footer-last-span">Email:<a href="mailto:517676410@qq.com" title="517676410@qq.com">517676410@qq.com</a></span>
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
             
-        
     
 </div>
 
